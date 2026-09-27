@@ -1,9 +1,34 @@
-# 📬 ZMail system · 多邮箱聚合系统
+# 📬 Zmail System · 多邮箱聚合系统
+
+![电脑端暗色模式](docs/screenshots/desktop-dark.png)
 
 一个可以部署在虚拟主机上的轻量级多邮箱聚合系统。把 Gmail、QQ、Outlook、163 等邮箱集中在一个网页里查看、管理、转发。
 
 > 不需要 Docker，不需要 VPS，只要一个支持 PHP + IMAP 的虚拟主机就能跑。
-> ## 为什么用它
+
+---
+
+## 📸 截图
+
+### 电脑端 · 暗色模式
+
+![电脑端暗色](docs/screenshots/desktop-dark.png)
+
+### 电脑端 · 亮色模式
+
+![电脑端亮色](docs/screenshots/desktop-light.png)
+
+### 手机端 · 邮件列表
+
+![手机列表](docs/screenshots/mobile-list.png)
+
+### 手机端 · 邮件详情
+
+![手机详情](docs/screenshots/mobile-detail.png)
+
+---
+
+## 为什么用它
 
 如果你也受够了：
 
@@ -29,12 +54,6 @@
 | ⏰ 自动收信 | Cron 定时拉取，最小间隔 1 分钟 |
 | 🧹 定时清理 | 自动删除超过 N 天的本地邮件和附件 |
 | 🔒 登录保护 | 密码登录 + 限速防爆破 + 会话超时 |
-
----
-
-## 📸 截图
-
-部署后自己截图放在这里。
 
 ---
 
@@ -95,7 +114,7 @@
 
 ## 📁 目录结构
 
-    mail-system/
+    zmail-system/
     ├── README.md
     ├── LICENSE
     ├── CHANGELOG.md
@@ -126,7 +145,8 @@
     └── docs/
         ├── INSTALL.md
         ├── CONFIG.md
-        └── FAQ.md
+        ├── FAQ.md
+        └── screenshots/
 
 ---
 
